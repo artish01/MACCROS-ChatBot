@@ -15,8 +15,8 @@ const loadDataFromLocalStorage = () => {
     : "light_mode";
 
   const defaultText = `<div class="default-text">
-                            <h1>MACCROS MEDIA LLP ChaBot</h1>
-                            <h3>Ask your advertisement releated queries And explore the power of AI<br>Your chat will be displayed here.</h3>
+                            <h1>MACCROS MEDIA LLP ChatBot</h1>
+                            <h3>Ask your advertisement-related queries and explore the power of AI.<br>Your chat will be displayed here.</h3>
                         </div>`;
 
   chatContainer.innerHTML = localStorage.getItem("all-chats") || defaultText;
